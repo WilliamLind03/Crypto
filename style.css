@@ -1,0 +1,94 @@
+body{
+    margin: 0;
+    overflow: hidden;
+    background-color: #222;
+    display: flex;
+}
+
+#gameCanvas{
+    
+}
+
+#wrap{
+    width: 400px;
+    height: 100vh;
+    background: #333;
+    margin: 0;
+    padding: 0;
+}
+
+#userData{
+    color: white;
+}
+#totalBalance{
+    font: bold 40px sans-serif;
+    margin: 100px 0 50px 0;
+    text-align: center;
+}
+#balance{
+    font: bold 16px sans-serif;
+    margin: 10px 0 0 10px;
+}
+#userSharesValue{
+    font: bold 14px sans-serif;
+    margin: 0;
+}
+
+#data{
+    margin: 50px 0 0 0;
+    text-align: center;
+    
+}
+#valueChange{
+    margin: 0;
+    font: bold 20px sans-serif;
+}
+#currentValue{
+    margin: 0;
+    font: bold 40px sans-serif;
+    color: white;
+}
+#inputs{
+    margin: 10px 0 0 0;
+}
+
+input{
+    width: 78%;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    margin-left: 9%;
+    padding: 0 2%;
+    text-align: center;
+    background: #222;
+    color: white;
+}
+input::placeholder{
+    color: white;
+}
+input:focus{
+    outline: none;
+}
+
+
+#btns{
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    
+}
+#btns button{
+    width: 40%;
+    height: 60px;
+    color: white;
+    font: bold 20px sans-serif;
+    border-radius: 30px;
+    margin: 0px 1%;
+}
+#buy{
+    background: #0080FF;
+}
+#sell{
+    background: red;
+}
+

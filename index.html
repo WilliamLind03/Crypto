@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="sv">
+    <head>
+        <meta charset="utf-8">
+        <title>Crypto</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        
+        <canvas id="gameCanvas"></canvas>
+        <div id="wrap">
+            <div id="userData">
+                <p id="balance"></p>
+                <p id="totalBalance"></p>
+                
+                
+            </div>
+            <div id="data">
+                <p id="valueChange">+2.58% (1.63)</p>
+                <p id="currentValue">45.37 SEK</p>
+                <p id="userSharesValue"></p>
+            </div>
+            <div id="inputs">
+                <input id="shares" type="number" placeholder="Amount of shares">
+                <button id="selectAll">All</button>
+                <div id="btns">
+                    <button id="buy">Buy</button>
+                    <button id="sell">Sell</button>
+                </div>
+                <div id="settings">
+                    <input id="graphSpeed" type="range" value="50">
+                    <input id="graphWidth" type="range" value="50">
+                    <input id="startValue" type="number" placeholder="StartValue">
+                </div>
+            </div>
+        </div>
+            
+        
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="graph.js"></script>
+        <script src="inputs.js"></script>
+    </body>
+</html>
