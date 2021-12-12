@@ -2,6 +2,7 @@ body{
     margin: 0;
     background-color: #222;
     display: flex;
+    height: 100%;
 }
 
 #gameCanvas{
@@ -10,7 +11,7 @@ body{
 
 #wrap{
     width: 400px;
-    height: 100vh;
+    height: 100%;
     background: #333;
     margin: 0;
     padding: 0;
